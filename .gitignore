@@ -1,0 +1,13 @@
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.*
+*.tfvars
+override.tf
+override.tf.json
+.aws/ # If you're not managing credentials through other secure means
+credentials # If you have a local credentials file
+*.backup
+*~ # Emacs and other editor backups
+*.swp # Vim swap files
+.DS_Store # macOS Desktop Services Store
